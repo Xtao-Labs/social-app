@@ -64,7 +64,7 @@ export function beginResolveGeolocation() {
    * In dev, IP server is unavailable, so we just set the default geolocation
    * and fail closed.
    */
-  if (__DEV__) {
+  if (true || __DEV__) {
     geolocationResolution = new Promise(y => y())
     device.set(['geolocation'], DEFAULT_GEOLOCATION)
     return
