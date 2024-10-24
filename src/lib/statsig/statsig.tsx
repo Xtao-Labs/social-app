@@ -14,7 +14,7 @@ import {useNonReactiveCallback} from '../hooks/useNonReactiveCallback'
 import {LogEvents} from './events'
 import {Gate} from './gates'
 
-const SDK_KEY = 'client-SXJakO39w9vIhl3D44u8UupyzFl4oZ2qPIkjwcvuPsV'
+const SDK_KEY = 'client-JNwR5pNsgkd73YVvBi7rK2a5PH0d6YcP1e8N4Cwp0OH'
 
 type StatsigUser = {
   userID: string | undefined
