@@ -207,7 +207,7 @@ function ProfileScreenLoaded({
   const hasLabeler = !!profile.associated?.labeler
   const showFiltersTab = hasLabeler
   const showPostsTab = true
-  const showRepliesTab = hasSession
+  const showRepliesTab = true
   const showMediaTab = !hasLabeler
   const showVideosTab = !hasLabeler
   const showLikesTab = true
@@ -217,7 +217,7 @@ function ProfileScreenLoaded({
   const showStarterPacksTab = isMe || starterPackCount > 0
   // subtract starterpack count from list count, since starterpacks are a type of list
   const listCount = (profile.associated?.lists || 0) - starterPackCount
-  const showListsTab = hasSession && (isMe || listCount > 0)
+  const showListsTab = true && (isMe || listCount > 0)
 
   const sectionTitles = [
     showFiltersTab ? _(msg`Labels`) : undefined,
