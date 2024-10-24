@@ -13,7 +13,7 @@ import {timeout} from '../async/timeout'
 import {useNonReactiveCallback} from '../hooks/useNonReactiveCallback'
 import {type Gate} from './gates'
 
-const SDK_KEY = 'client-SXJakO39w9vIhl3D44u8UupyzFl4oZ2qPIkjwcvuPsV'
+const SDK_KEY = 'client-JNwR5pNsgkd73YVvBi7rK2a5PH0d6YcP1e8N4Cwp0OH'
 
 export const initPromise = initialize()
 
