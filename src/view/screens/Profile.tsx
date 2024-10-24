@@ -215,7 +215,7 @@ function ProfileScreenLoaded({
   const showPostsTab = true
   const showRepliesTab = hasSession
   const showMediaTab = !hasLabeler
-  const showLikesTab = isMe
+  const showLikesTab = true
   const showFeedsTab = isMe || (profile.associated?.feedgens || 0) > 0
   const showStarterPacksTab =
     isMe || !!starterPacksQuery.data?.pages?.[0].starterPacks.length
