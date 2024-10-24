@@ -213,14 +213,13 @@ function ProfileScreenLoaded({
   const hasLabeler = !!profile.associated?.labeler
   const showFiltersTab = hasLabeler
   const showPostsTab = true
-  const showRepliesTab = hasSession
+  const showRepliesTab = true
   const showMediaTab = !hasLabeler
   const showLikesTab = true
   const showFeedsTab = isMe || (profile.associated?.feedgens || 0) > 0
   const showStarterPacksTab =
     isMe || !!starterPacksQuery.data?.pages?.[0].starterPacks.length
-  const showListsTab =
-    hasSession && (isMe || (profile.associated?.lists || 0) > 0)
+  const showListsTab = true && (isMe || (profile.associated?.lists || 0) > 0)
 
   const sectionTitles = [
     showFiltersTab ? _(msg`Labels`) : undefined,
