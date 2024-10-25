@@ -284,6 +284,13 @@ export function Controls({
     [onEndHover],
   )
 
+  const onChangeBitrate = (event: ChangeEvent<HTMLSelectElement>) => {
+    if (!hlsRef.current) {
+      return
+    }
+    hlsRef.current.currentLevel = parseInt(event.target.value)
+  }
+
   const showControls =
     ((focused || autoplayDisabled) && !playing) ||
     (interactingViaKeypress ? hasFocus : hovered)
@@ -380,6 +387,15 @@ export function Controls({
             ]}>
             {formatTime(currentTime)} / {formatTime(duration)}
           </Text>
+          {hlsRef.current && (
+            <select onChange={onChangeBitrate}>
+              {hlsRef.current.levels.map((level, id) => (
+                <option key={id} value={id}>
+                  <Text>{level.height}p</Text>
+                </option>
+              ))}
+            </select>
+          )}
           {hasSubtitleTrack && (
             <ControlButton
               active={subtitlesEnabled}
