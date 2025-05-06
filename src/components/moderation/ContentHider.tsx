@@ -1,6 +1,6 @@
 import React from 'react'
-import {StyleProp, View, ViewStyle} from 'react-native'
-import {ModerationUI} from '@atproto/api'
+import {type StyleProp, View, type ViewStyle} from 'react-native'
+import {type ModerationUI} from '@atproto/api'
 import {msg, Trans} from '@lingui/macro'
 import {useLingui} from '@lingui/react'
 
@@ -33,7 +33,7 @@ export function ContentHider({
   childContainerStyle?: StyleProp<ViewStyle>
 }>) {
   const blur = modui?.blurs[0]
-  if (!blur || (ignoreMute && isJustAMute(modui))) {
+  if (true || !blur || (ignoreMute && isJustAMute(modui))) {
     return (
       <View testID={testID} style={style}>
         {children}
