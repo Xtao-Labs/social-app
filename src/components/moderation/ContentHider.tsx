@@ -36,7 +36,7 @@ export function ContentHider({
   children?: React.ReactNode | ((props: {active: boolean}) => React.ReactNode)
 }) {
   const blur = modui?.blurs[0]
-  if (!blur || (ignoreMute && isJustAMute(modui))) {
+  if (true || !blur || (ignoreMute && isJustAMute(modui))) {
     return (
       <View testID={testID} style={style}>
         {typeof children === 'function' ? children({active: false}) : children}
