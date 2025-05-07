@@ -810,7 +810,7 @@ msgstr ""
 msgid "An error has occurred"
 msgstr ""
 
-#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:420
+#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:442
 msgid "An error occurred"
 msgstr ""
 
@@ -2382,7 +2382,7 @@ msgstr ""
 msgid "Disable haptic feedback"
 msgstr ""
 
-#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:386
+#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:408
 msgid "Disable subtitles"
 msgstr ""
 
@@ -2789,7 +2789,7 @@ msgstr ""
 msgid "Enable priority notifications"
 msgstr ""
 
-#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:387
+#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:409
 msgid "Enable subtitles"
 msgstr ""
 
@@ -2837,7 +2837,7 @@ msgstr ""
 msgid "Enter Code"
 msgstr ""
 
-#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:405
+#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:427
 msgid "Enter fullscreen"
 msgstr ""
 
@@ -2942,7 +2942,7 @@ msgstr ""
 msgid "Excludes users you follow"
 msgstr ""
 
-#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:404
+#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:426
 msgid "Exit fullscreen"
 msgstr ""
 
@@ -5404,11 +5404,11 @@ msgstr ""
 
 #: src/view/com/util/post-embeds/GifEmbed.tsx:43
 #: src/view/com/util/post-embeds/VideoEmbedInner/VideoEmbedInnerNative.tsx:140
-#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:369
+#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:382
 msgid "Pause"
 msgstr ""
 
-#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:320
+#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:333
 msgid "Pause video"
 msgstr ""
 
@@ -5492,7 +5492,7 @@ msgstr ""
 
 #: src/view/com/util/post-embeds/GifEmbed.tsx:43
 #: src/view/com/util/post-embeds/VideoEmbedInner/VideoEmbedInnerNative.tsx:140
-#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:370
+#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:383
 msgid "Play"
 msgstr ""
 
@@ -5501,7 +5501,7 @@ msgid "Play {0}"
 msgstr ""
 
 #: src/view/com/util/post-embeds/VideoEmbed.tsx:134
-#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:321
+#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:334
 msgid "Play video"
 msgstr ""
 
@@ -8229,7 +8229,7 @@ msgstr ""
 msgid "Unmute thread"
 msgstr ""
 
-#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:318
+#: src/view/com/util/post-embeds/VideoEmbedInner/web-controls/VideoControls.tsx:331
 msgid "Unmute video"
 msgstr ""
 
