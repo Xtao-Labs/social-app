@@ -562,7 +562,7 @@ export function DesktopLeftNav() {
           transform: [
             {
               translateX:
-                -300 + (centerColumnOffset ? CENTER_COLUMN_OFFSET : 0),
+                -530 + (centerColumnOffset ? CENTER_COLUMN_OFFSET : 0),
             },
             {translateX: '-100%'},
             ...a.scrollbar_offset.transform,

@@ -70,7 +70,7 @@ export function DesktopRightNav({routeName}: {routeName: string}) {
           left: '50%',
           transform: [
             {
-              translateX: 300 + (centerColumnOffset ? CENTER_COLUMN_OFFSET : 0),
+              translateX: 530 + (centerColumnOffset ? CENTER_COLUMN_OFFSET : 0),
             },
             ...a.scrollbar_offset.transform,
           ],
