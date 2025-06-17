@@ -170,7 +170,7 @@ export const Center = memo(function LayoutCenter({
         a.w_full,
         a.mx_auto,
         gtMobile && {
-          maxWidth: 600,
+          maxWidth: 1079,
         },
         !isWithinOffsetView && {
           transform: [
@@ -211,7 +211,7 @@ const WebCenterBorders = memo(function LayoutWebCenterBorders() {
         a.border_r,
         t.atoms.border_contrast_low,
         web({
-          width: 602,
+          width: 1082,
           left: '50%',
           transform: [
             {translateX: '-50%'},
