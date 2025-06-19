@@ -114,6 +114,6 @@ const styles = StyleSheet.create({
     left: web(`calc(50vw - 282px + ${CENTER_COLUMN_OFFSET}px)`),
   },
   loadLatestOutOfLine: {
-    left: web('calc(50vw - 382px)'),
+    left: web('calc(50vw + 580px)'),
   },
 })
